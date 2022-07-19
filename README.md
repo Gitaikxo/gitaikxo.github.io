@@ -1,1 +1,0 @@
-# gitaikxo.github.io
