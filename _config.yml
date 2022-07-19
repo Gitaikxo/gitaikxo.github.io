@@ -1,9 +1,9 @@
-title: ITpranks
-description: "A blog dedicated to "virus" pranks"
+title: Hacker-Blog
+description: "A Jekyll Blog Theme For Hackers"
 author:
-  name: "Gitaikxo"
-  email: "none"
-  url: "none"
+  name: "SomeHacker"
+  email: "someone@somewebsite.somedomain"
+  url: "https://ashishchaudhary.in/hacker-blog"
 
 baseurl: /
 
