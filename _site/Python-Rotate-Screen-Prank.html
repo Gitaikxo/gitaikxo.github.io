@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="generator" content="Jekyll">
+
+  <title>Python Rotate Screen Virus Prank</title>
+
+  <link rel="stylesheet" href="/css/main.css">
+  
+  <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" /> <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Python Rotate Screen Virus Prank | IT pranks</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Python Rotate Screen Virus Prank" />
+<meta name="author" content="SomeHacker" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="What is this?" />
+<meta property="og:description" content="What is this?" />
+<link rel="canonical" href="http://localhost:8000/Python-Rotate-Screen-Prank" />
+<meta property="og:url" content="http://localhost:8000/Python-Rotate-Screen-Prank" />
+<meta property="og:site_name" content="IT pranks" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-07-19T00:00:00+02:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Python Rotate Screen Virus Prank" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"SomeHacker","url":"https://ashishchaudhary.in/hacker-blog"},"dateModified":"2022-07-19T00:00:00+02:00","datePublished":"2022-07-19T00:00:00+02:00","description":"What is this?","headline":"Python Rotate Screen Virus Prank","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:8000/Python-Rotate-Screen-Prank"},"url":"http://localhost:8000/Python-Rotate-Screen-Prank"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+  <div>
+    <a href="/">
+    
+    <h1>gitaikxo@home:~$</h1>
+    </a>
+    <div class="header-links">
+      <a href="/archive"><h2 class="header-link">Archive</h2></a>
+<a href="/about"><h2 class="header-link">About</h2></a>
+    </div>
+  </div>
+</header>
+    <div class="container">
+      <section id="main_content">
+        <article>
+  <h2>Python Rotate Screen Virus Prank</h2>
+  <time datetime="2022-07-19T00:00:00+02:00" class="by-line">19 Jul 2022</time>
+  <h1 id="what-is-this"><a href="#header-1"></a>What is this?</h1>
+
+<p>This is a python “virus” that will be always rotating the screen 90º. Therefore, our victim will be so confused that he/she will not be able to do anything to stop the virus from executing.</p>
+
+<p>Along with the virus I will post a fix file to get everything back to normal when the prank is over.</p>
+
+<h1 id="requirements"><a href="#header-1"></a>Requirements</h1>
+
+<ul>
+  <li>python-time</li>
+  <li>rotate-screen</li>
+  <li>pywin32</li>
+</ul>
+
+<h1 id="python-code"><a href="#header-1"></a>Python code</h1>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#This code will cause the display to rotate indefinitely
+</span><span class="kn">import</span> <span class="nn">time</span><span class="p">,</span> <span class="n">rotatescreen</span> <span class="k">as</span> <span class="n">rs</span>
+<span class="n">pd</span> <span class="o">=</span> <span class="n">rs</span><span class="p">.</span><span class="n">get_primary_display</span><span class="p">()</span>
+<span class="n">angle_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">90</span><span class="p">,</span> <span class="mi">180</span><span class="p">,</span> <span class="mi">270</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">angle_list</span><span class="p">:</span>
+        <span class="n">pd</span><span class="p">.</span><span class="n">rotate_to</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+        <span class="n">time</span><span class="p">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h1 id="fix-code"><a href="#header-1"></a>Fix code</h1>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#This code returns the screen to normal.
+</span><span class="kn">import</span> <span class="nn">time</span><span class="p">,</span> <span class="n">rotatescreen</span> <span class="k">as</span> <span class="n">rs</span>
+<span class="n">pd</span> <span class="o">=</span> <span class="n">rs</span><span class="p">.</span><span class="n">get_primary_display</span><span class="p">()</span>
+<span class="n">pd</span><span class="p">.</span><span class="n">rotate_to</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+</code></pre></div></div>
+
+</article>
+      </section>
+    </div>
+  </div>
+
+   <footer>
+  <a href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US">
+    <span>
+        <b>SomeHacker</b>
+    </span>
+    
+    <span>© 2022</span>
+  </a>
+</footer>
+
+  
+</body>
+
+</html>
