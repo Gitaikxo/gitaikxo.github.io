@@ -1,53 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <meta name="generator" content="Jekyll">
-
-  <title>About</title>
-
-  <link rel="stylesheet" href="/css/main.css">
-  
-  <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" /> <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>About | Prank-Blog</title>
-<meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="About" />
-<meta name="author" content="Gitaikxo" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="A Blog fot IT pranks" />
-<meta property="og:description" content="A Blog fot IT pranks" />
-<link rel="canonical" href="http://localhost:8000/about" />
-<meta property="og:url" content="http://localhost:8000/about" />
-<meta property="og:site_name" content="Prank-Blog" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="About" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Gitaikxo","url":"https://ashishchaudhary.in/hacker-blog"},"description":"A Blog fot IT pranks","headline":"About","url":"http://localhost:8000/about"}</script>
-<!-- End Jekyll SEO tag -->
-
-</head>
-
-<body>
-  <div id="wrapper">
-    <header>
-  <div>
-    <a href="/">
-    
-    <h1>gitaikxo@home:~$</h1>
-    </a>
-    <div class="header-links">
-      <a href="/archive"><h2 class="header-link">Archive</h2></a>
-<a href="/about"><h2 class="header-link">About</h2></a>
-<a href="/atom.xml"><h2 class="header-link">RSS</h2></a>
-    </div>
-  </div>
-</header>
-    <div class="container">
-      <section id="main_content">
-        <article>
-  <p>In this blog you will find some prank virus to prank your friends</p>
+I"�<p>In this blog you will find some prank virus to prank your friends</p>
 
 <p>All the content you will see here is intended to be used as a joke method. 
 Refrain from using this material for malicious purposes.</p>
@@ -134,23 +85,4 @@ Refrain from using this material for malicious purposes.</p>
 <blockquote>
   <p><strong>NOTE</strong>  In order for the code to work on the other person’s PC, the other person must have installed Python and the code requirements before. You can install all that automatically with a powershell script for example</p>
 </blockquote>
-
-</article>
-      </section>
-    </div>
-  </div>
-
-   <footer>
-  <a href="https://creativecommons.org/licenses/by-nc/3.0/deed.en_US">
-    <span>
-        <b>Gitaikxo</b>
-    </span>
-    
-    <span>© 2022</span>
-  </a>
-</footer>
-
-  
-</body>
-
-</html>
+:ET

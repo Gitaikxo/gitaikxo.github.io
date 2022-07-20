@@ -1,0 +1,75 @@
+I"
+<p>In this blog you will find some prank virus to prank your friends</p>
+
+<p>All the content you will see here is intended to be used as a joke method. 
+Refrain from using this material for malicious purposes.</p>
+
+<h1 id="tutorial-for-beginners"><a href="#header-1"></a>Tutorial for beginners</h1>
+
+<p>All content posted on this page is programmed in <code class="language-plaintext highlighter-rouge">Python</code>.</p>
+
+<p>Python is a high-level, object-oriented programming language with built-in dynamic semantics, primarily for web and software application development.</p>
+
+<h1 id="how-yo-make-python-files"><a href="#header-2"></a>How yo make python files?</h1>
+
+<ul>
+  <li>Download and install <a href="https://www.python.org/downloads/">python</a></li>
+</ul>
+
+<p><img src="/assets/py_down.png" alt="" /></p>
+
+<blockquote>
+  <p><strong>Don’t forget to check th <code class="language-plaintext highlighter-rouge">Add to PATH</code> box</strong></p>
+</blockquote>
+
+<p><img src="/assets/check.png" alt="" /></p>
+
+<blockquote>
+  <p>If you are in Linux, just install python from terminal</p>
+</blockquote>
+
+<blockquote>
+  <p>Example:</p>
+</blockquote>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get <span class="nb">install </span>python python3
+</code></pre></div></div>
+
+<ul>
+  <li>Intall the requirements with <code class="language-plaintext highlighter-rouge">pip</code></li>
+</ul>
+
+<blockquote>
+  <p>Examples:</p>
+</blockquote>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pìp <span class="nb">install </span>python-time
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>tkinter
+</code></pre></div></div>
+
+<ul>
+  <li>Make a file with the <code class="language-plaintext highlighter-rouge">.py</code> extension</li>
+</ul>
+
+<blockquote>
+  <p>Windows (Make a text file with the notepad and rename it to “example.py”</p>
+</blockquote>
+
+<blockquote>
+  <p>Linux</p>
+</blockquote>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">touch </span>example.py
+</code></pre></div></div>
+
+<ul>
+  <li>Time to write the code</li>
+</ul>
+
+<blockquote>
+  <p>I recommend to use a good text editor like <a href="https://www.sublimetext.com/3">Sublime Text</a> or <a href="https://code.visualstudio.com/download">Visual Studio Code</a></p>
+</blockquote>
+
+:ET

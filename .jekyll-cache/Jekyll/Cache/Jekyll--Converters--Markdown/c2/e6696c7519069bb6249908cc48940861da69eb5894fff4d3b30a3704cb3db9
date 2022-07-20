@@ -1,0 +1,35 @@
+I"�
+<h1 id="what-is-this"><a href="#header-1"></a>What is this?</h1>
+
+<p>This is a python “virus” that will be always rotating the screen 90º. Therefore, our victim will be so confused that he/she will not be able to do anything to stop the virus from executing.</p>
+
+<p>Along with the virus I will post a fix file to get everything back to normal when the prank is over.</p>
+
+<h1 id="requirements"><a href="#header-1"></a>Requirements</h1>
+
+<ul>
+  <li>python-time</li>
+  <li>rotate-screen</li>
+  <li>pywin32</li>
+</ul>
+
+<h1 id="python-code"><a href="#header-1"></a>Python code</h1>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#This code will cause the display to rotate indefinitely
+</span><span class="kn">import</span> <span class="nn">time</span><span class="p">,</span> <span class="n">rotatescreen</span> <span class="k">as</span> <span class="n">rs</span>
+<span class="n">pd</span> <span class="o">=</span> <span class="n">rs</span><span class="p">.</span><span class="n">get_primary_display</span><span class="p">()</span>
+<span class="n">angle_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">90</span><span class="p">,</span> <span class="mi">180</span><span class="p">,</span> <span class="mi">270</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">angle_list</span><span class="p">:</span>
+        <span class="n">pd</span><span class="p">.</span><span class="n">rotate_to</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+        <span class="n">time</span><span class="p">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h1 id="fix-code"><a href="#header-1"></a>Fix code</h1>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#This code returns the screen to normal.
+</span><span class="kn">import</span> <span class="nn">time</span><span class="p">,</span> <span class="n">rotatescreen</span> <span class="k">as</span> <span class="n">rs</span>
+<span class="n">pd</span> <span class="o">=</span> <span class="n">rs</span><span class="p">.</span><span class="n">get_primary_display</span><span class="p">()</span>
+<span class="n">pd</span><span class="p">.</span><span class="n">rotate_to</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+</code></pre></div></div>
+:ET
